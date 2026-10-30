@@ -1,0 +1,96 @@
+
+{
+  "transport": {
+    "petrol_bike": {
+      "factor": 0.1,
+      "unit": "kg CO2e/km",
+      "basis": "vehicle-km",
+      "source": "Illustrative placeholder",
+      "verified": false
+    },
+    "petrol_car": {
+      "factor": 0.2,
+      "unit": "kg CO2e/km",
+      "basis": "vehicle-km",
+      "source": "Illustrative placeholder",
+      "verified": false
+    },
+    "bus": {
+      "factor": 0.015,
+      "unit": "kg CO2e/passenger-km",
+      "basis": "passenger-km",
+      "source": "Infosys ESG Databook 2024-25, citing India GHG Program",
+      "verified": true
+    },
+    "train": {
+      "factor": 0.008,
+      "unit": "kg CO2e/passenger-km",
+      "basis": "passenger-km",
+      "source": "Infosys ESG Databook 2024-25, citing India GHG Program",
+      "verified": true
+    },
+    "metro": {
+      "factor": 0.029,
+      "unit": "kg CO2e/passenger-km",
+      "basis": "passenger-km",
+      "source": "Infosys ESG Databook 2024-25, citing TERI",
+      "verified": true
+    }
+  },
+  "electricity": {
+    "grid": {
+      "factor": 0.7,
+      "unit": "kg CO2e/kWh",
+      "source": "Illustrative placeholder",
+      "verified": false
+    }
+  },
+  "food": {
+    "rice": {
+      "factor": 4.45,
+      "unit": "kg CO2e/kg",
+      "source": "Poore and Nemecek (2018), via Our World in Data",
+      "region": "Global",
+      "verified": true
+    },
+    "vegetables": {
+      "factor": 0.53,
+      "unit": "kg CO2e/kg",
+      "source": "Poore and Nemecek (2018), via Our World in Data",
+      "region": "Global",
+      "verified": true
+    },
+    "chicken": {
+      "factor": 9.87,
+      "unit": "kg CO2e/kg",
+      "source": "Poore and Nemecek (2018), poultry meat average",
+      "region": "Global",
+      "verified": true
+    },
+    "mutton": {
+      "factor": 39.72,
+      "unit": "kg CO2e/kg",
+      "source": "Poore and Nemecek (2018), lamb and mutton average",
+      "region": "Global",
+      "verified": true
+    }
+  },
+  "waste": {
+    "organic_composting": {
+      "factor": 0.32,
+      "unit": "kg CO2e/kg waste",
+      "source": "Government of India - Low Carbon Lifestyles",
+      "treatment": "composting",
+      "region": "India",
+      "verified": true
+    },
+    "organic_landfill": {
+      "factor": 1.29,
+      "unit": "kg CO2e/kg waste",
+      "source": "Government of India - Low Carbon Lifestyles",
+      "treatment": "landfill",
+      "region": "India",
+      "verified": true
+    }
+  }
+}
